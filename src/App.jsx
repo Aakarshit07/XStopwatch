@@ -31,7 +31,7 @@ function App() {
   return (
     <div className='app'>
         <h1>Stopwatch</h1>
-        <p>Timer: {formatTimer(timer)}</p>
+        <p>Time: {formatTimer(timer)}</p>
         <div className='btn-container'>
         <button 
         onClick={()=> setIsRunning(!isRunning)}
